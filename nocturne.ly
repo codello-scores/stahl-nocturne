@@ -24,6 +24,7 @@ crpoco = #(make-music 'CrescendoEvent
                       'span-direction START
                       'span-type 'text
                       'span-text "cresc. poco a poco")
+
 fappass = \tweak DynamicText.self-alignment-X #-0.9
           #(make-dynamic-script (markup "f" #:normal-text #:italic "appass."))
 pprubato = \tweak DynamicText.self-alignment-X #-0.9
@@ -31,7 +32,6 @@ pprubato = \tweak DynamicText.self-alignment-X #-0.9
 mfespress = \tweak DynamicText.self-alignment-X #-0.9
             #(make-dynamic-script (markup "mf" #:normal-text #:italic "espress."))
 
-% TODO: Generalize and move to some util.ily (markup function: dynamicText or so).
 ritardando = #(make-music 'AbsoluteDynamicEvent
                           'text
                           (markup #:line (#:normal-text (#:italic "rit."))))

@@ -373,9 +373,9 @@ PianoDynamics = {
     s4.\< s4.*3 |
     s2.\! s\< |
     s1.\! |
-    s1.\mfespress | % TODO: Center vertically
+    s1.\mfespress |
     s1.*3 |
-    s1.\f^\atempo | % TODO: Center. Where should the "a tempo" be?
+    s1.-\markup { \dynamic f \normal-text\roman\bold " a tempo" } |
   }
   \alternative {
     {s2. s8 s8\> s8 s8 s8 s8\!}
@@ -394,7 +394,7 @@ PianoDynamics = {
   s4. s\> s s\! |
   s4. s\< s s\! |
   s s\> s s\! |
-  s4.\pprubato % TODO: Center vertically
+  s4.\pprubato
   s s s |
   s1. |
   s1.\mf |

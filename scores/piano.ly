@@ -17,7 +17,7 @@
       #'((basic-distance . (* (/ 5 7) 10))
          (minimum-distance . (* (/ 5 7) 7))
          (padding . 1)
-         (stretchability . 20)) % TODO: Infinity
+         (stretchability . 20))
   }
   \context {
     \PianoStaff
