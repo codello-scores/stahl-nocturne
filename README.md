@@ -1,6 +1,6 @@
-# My LilyPond Project
+# Ernst Stahl: Nocturne, op. 66
 
-Add the composer, title, and opus of the piece here.
+“Nocturne”, op. 66 by Ernst Stahl. This is a transcription of the version by Carl Giessel from 1896 ([ISMLP](https://imslp.org/wiki/Nocturne%2C_Op.66_(Stahl%2C_Ernst))).
 
 ## Engraving Scores
 
@@ -14,5 +14,5 @@ Available parts are `violin`,  `flute`, `cello`, and `piano`.
 
 ## Installing Fonts
 
-This project uses the [PDQ](https://github.com/Codello/PDQ) theme. In order to compile these files the Yorkten font is required.
+This project uses the [PDQ](https://github.com/Codello/pdq) theme. In order to compile these files the Yorkten font is required.
 
